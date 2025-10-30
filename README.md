@@ -9,12 +9,6 @@
 
 A secure, decentralized, peer-to-peer messaging app that works over Bluetooth mesh networks. No internet required for mesh chats, no servers, no phone numbers - just pure encrypted communication. Bitchat also supports geohash channels, which use an internet connection to connect you with others in your geographic area.
 
-This is the **Android port** of the original [bitchat iOS app](https://github.com/jackjackbits/bitchat), maintaining 100% protocol compatibility for cross-platform communication.
-
-## Install bitchat
-
-You can download the latest version of bitchat for Android from the [GitHub Releases page](https://github.com/permissionlesstech/bitchat-android/releases).
-
 Or you can:
 
 [<img alt="Get it on Google Play" height="60" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/>](https://play.google.com/store/apps/details?id=com.bitchat.droid)
@@ -57,7 +51,7 @@ This project is released into the public domain. See the [LICENSE](LICENSE.md) f
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/permissionlesstech/bitchat-android.git
+   git clone https://github.com/mihailo417/bitchat.git
    cd bitchat-android
    ```
 
@@ -285,8 +279,6 @@ This Android port enables seamless communication with the original iOS bitchat a
 - **Feature Parity**: All commands and encryption work across platforms
 - **Protocol Sync**: Identical message format and routing behavior
 
-**iOS Version**: For iPhone/iPad users, get the original bitchat at [github.com/jackjackbits/bitchat](https://github.com/jackjackbits/bitchat)
-
 ## Contributing
 
 Contributions are welcome! Key areas for enhancement:
@@ -297,10 +289,6 @@ Contributions are welcome! Key areas for enhancement:
 4. **Testing**: Unit and integration test coverage
 5. **Documentation**: API documentation and development guides
 
-## Support & Issues
-
-- **Bug Reports**: [Create an issue](../../issues) with device info and logs
-- **Feature Requests**: [Start a discussion](https://github.com/orgs/permissionlesstech/discussions)
 - **Security Issues**: Email security concerns privately
 - **iOS Compatibility**: Cross-reference with [original iOS repo](https://github.com/jackjackbits/bitchat)
 
